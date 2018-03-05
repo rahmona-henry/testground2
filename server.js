@@ -5,4 +5,4 @@ const app = express()
 app.use(express.static('client'))
 
 app.get('/', (req, res) => res.send('Hello DubSpot'))
-app.listen(3000, () => console.log('Catching a ride on port 3000'))
+app.listen(4000, () => console.log('Catching a ride on port 4000'))
